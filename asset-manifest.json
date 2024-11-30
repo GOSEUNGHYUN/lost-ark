@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/lost-ark/static/js/main.766f10ca.js",
+    "index.html": "/lost-ark/index.html",
+    "main.766f10ca.js.map": "/lost-ark/static/js/main.766f10ca.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.766f10ca.js"
+  ]
+}
