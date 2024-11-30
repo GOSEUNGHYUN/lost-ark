@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/lost-ark/static/js/main.5e17d9c6.js",
+    "main.js": "/lost-ark/static/js/main.b7a6711a.js",
     "index.html": "/lost-ark/index.html",
-    "main.5e17d9c6.js.map": "/lost-ark/static/js/main.5e17d9c6.js.map"
+    "main.b7a6711a.js.map": "/lost-ark/static/js/main.b7a6711a.js.map"
   },
   "entrypoints": [
-    "static/js/main.5e17d9c6.js"
+    "static/js/main.b7a6711a.js"
   ]
 }
