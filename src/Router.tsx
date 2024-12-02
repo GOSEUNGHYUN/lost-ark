@@ -4,10 +4,10 @@ import Character from "./routes/Character";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/lost-ark">
       <Switch>
+        <Route exact path="/" component={Home} />
         <Route path="/:nic" component={Character} />
-        <Route path="/" component={Home} />
       </Switch>
     </BrowserRouter>
   );

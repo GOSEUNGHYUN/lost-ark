@@ -5,7 +5,7 @@ import styled from "styled-components";
 const HomeBackground = styled.div`
   height: 100vh;
   width: 100vw;
-  background-image: url("/images/background.jpg");
+  background-image: url("${process.env.PUBLIC_URL}/images/background.jpg");
   background-size: 100% 100%;
   background-position: center;
 
@@ -52,8 +52,14 @@ function Home() {
   const [inputString, setInputString] = useState("");
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    /*event.preventDefault();
+    history.push(`/${inputString}`);*/
     event.preventDefault();
-    history.push(`/${inputString}`);
+    if (inputString.trim() !== "") {
+      history.push(`/${inputString}`);
+    } else {
+      history.push("/");
+    }
   };
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
